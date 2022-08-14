@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img[alt="brand-logo"]{
+    display: inline-block;
+    width: 100px;
+    margin: 20px;
+}
+
+nav.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    width: 400px;
+}
+
+.nav-button{
+    background-color: rgb(95, 40, 158);
+    border: none;
+    color: #fff;
+    margin-right: 25px;
+    padding: 18px;
+    border-radius: 14px;
+    width: 120px;
+    border: none;
+}
+.nav-button:focus{
+    outline: none;
+}
+
+.banner-container{
+    display: flex;
+    margin: 10px;
+}
+
+h1.heading-text{
+    margin-top: 50px;
+    font-size: 50px;
+}
+h1.heading-text span{
+    color: rgb(95, 40, 158);;
+}
+
+.description{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #8080806c;
+}
+
+.btn{
+    width: 180px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px 5px rgba(0 0 0 / 10%);
+    font-weight: 500;
+}
+
